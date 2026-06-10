@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  /* Brand colors */
+  --color-brand-blue-950: #071529;
+  --color-brand-blue-900: #0c2340;
+  --color-brand-blue-800: #1d3557;
+  --color-brand-blue-700: #2a52be;
+  --color-brand-blue-600: #3b82f6;
+  --color-brand-gold-400: #f5d061;
+  --color-brand-gold-500: #dfb236;
+  --color-brand-gold-600: #c6941f;
+  --color-brand-gold-700: #a4760a;
+  --color-brand-orange-500: #dd6b20;
+  --color-brand-orange-600: #c05621;
+}
+
+/* Base styling */
+html {
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+}
+
+.font-sans-fallback {
+  font-family: var(--font-sans);
+}
+
+.font-display-fallback {
+  font-family: var(--font-display);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-gold-500);
+}

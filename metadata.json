@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Thiên Luật Phát - Pháp Lý Doanh Nghiệp",
+  "description": "Trang chủ dịch vụ pháp lý doanh nghiệp chuyên nghiệp, uy tín bậc nhất, lấy cảm hứng từ thienluatphat.vn. Hỗ trợ thành lập công ty, kế toán trọn gói, và giấy phép thuế.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
